@@ -5,11 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    fontFamily: {
-      serif: ["Cardo", "serif"],
-      display: ["Satisfy", "cursive"],
-    },
-    extend: {},
+    extend: {
+      fontFamily: {
+        serif: ["Cardo", "serif"],
+        display: ["Satisfy", "cursive"],
+      },
+    }
   },
   plugins: [],
 }
