@@ -10,8 +10,10 @@ export default {
         serif: ["Cardo", "serif"],
         display: ["Satisfy", "cursive"],
       },
+      spacing: {
+        128: '32rem',
+      }
     }
   },
-  plugins: [],
 }
 
